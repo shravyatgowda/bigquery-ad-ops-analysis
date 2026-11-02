@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+
+# Data and generated output (keep only the small synthetic sample)
+data/*
+!data/sample_ad_events.csv
+!data/.gitkeep
+outputs/*
+!outputs/.gitkeep
+
+# Cloud credentials and secrets
+.env
+*.json
+!requirements.json
+service-account*.json
+gcloud-key*
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
